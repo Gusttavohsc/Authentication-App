@@ -29,38 +29,38 @@ npm --version
 
 Caso os comandos retornem as versões, prossiga para a instalação das dependências, se não, verifique a instalação do Node.
 
-1. Instale o pacote do Express.
+3. Instale o pacote do Express.
 
 ```bash
 npm install express
 ```
 
-1. Instale os tipos de definição do Express
+4. Instale os tipos de definição do Express
 
 ```bash
 npm install @types/express
 ```
 
-1. Instale o TypeScript em modo de desenvolvimento
+5. Instale o TypeScript em modo de desenvolvimento
 
 ```bash
 npm install typescript --save-dev
 ```
 
-1. Instale os tipos do TypeScript em modo de desenvolvimento
+6. Instale os tipos do TypeScript em modo de desenvolvimento
 
 ```bash
 npm install -ts-node-dev --save-dev
 ```
 
-1. Verifique se as versões das dependências estão dentro dos [Pré-requisitos](https://www.notion.so/Come-ando-622a93a0ce0b4ab2be37dc385b4cec20) do projeto
+7. Verifique se as versões das dependências estão dentro dos [Pré-requisitos](https://www.notion.so/Come-ando-622a93a0ce0b4ab2be37dc385b4cec20) do projeto
 
 ```bash
 npm list
 npm list -g
 ```
 
-1. Inicialize as configurações do TypeScript
+8. Inicialize as configurações do TypeScript
 
 ```bash
 npx tcs --init
